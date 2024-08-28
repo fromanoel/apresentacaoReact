@@ -15,11 +15,11 @@ function SecaoFooter() {
                 </div>
                 <div className={styles.infoMatriz}>
                     <p>Rede de postos JL - XX.XXX.XXX/0001-XX</p>
+                    <div className={styles.contatos}>
+                        <img src={localIcon} alt="" />
+                        <p>Av. Ver. Geraldo Teodoro da Silva, 290 - Bosque</p>
+                    </div>
                     <ul>
-                        <li>
-                            <img src={localIcon} alt="" />
-                            <p>Av. Ver. Geraldo Teodoro da Silva, 290 - Bosque</p>
-                        </li>
                         <li>
                             <img src={telefoneIcon} alt="" />
                             <p>(34) 3215-6789</p>
